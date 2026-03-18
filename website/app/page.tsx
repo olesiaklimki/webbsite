@@ -129,7 +129,7 @@ export default function Home() {
        </div>
     
     <div className="flex justify-center mt-10">
-        <Link href="/website/app/car-park/page.tsx"
+        <Link href="/website/app/avto-park/page.tsx"
         className="font-primary font-medium bg-blue-600 hover:bg-blue-700 text-white px-12 py-2 rounded-lg">
           Смотреть все</Link>
     </div>
@@ -152,4 +152,3 @@ export default function Home() {
     </main>
   )
 }
-//рпгпгпшр

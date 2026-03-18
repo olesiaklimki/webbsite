@@ -10,7 +10,7 @@ export default function SiteFooter() {
                 <p className="text-center text-gray-500">Мы предлагаем аренду автомобилей, идеально подходящих на любой вкус</p>
                 <div className="flex flex-row gap-6
                 md:order-last order-first">
-                    <Link href="/website/app/car-park/page.tsx" className="text-gray-500">Автопарк</Link>
+                    <Link href="/website/app/avto-park/page.tsx" className="text-gray-500">Автопарк</Link>
                     <Link href="#" className="text-gray-500">Контакты</Link>
                 </div>
             </div>
@@ -20,7 +20,7 @@ export default function SiteFooter() {
                     <Image src="/footer/home.png" alt="home" width={24} height={24}/>
                     <p>Главная</p>
                 </Link>
-                <Link href="#" className="flex flex-col items-center text-gray-500">
+                <Link href="/website/app/avto-park/page.tsx" className="flex flex-col items-center text-gray-500">
                     <Image src="/footer/truck.png" alt="logo"width={24} height={24}/>
                     <p>Автопарк</p>
                     </Link>
